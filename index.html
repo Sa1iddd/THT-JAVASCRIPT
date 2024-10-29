@@ -6,6 +6,29 @@
     <title>Portofolio Web</title>
     <!-- <link rel="stylesheet" href="./dist/style.css"> -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                container: {
+                  center: true,
+                  padding: "16px",
+                },
+                extend: {
+                  colors: {
+                    background: "#030712",
+                    primary: '#14b8a6',
+                    dark: '#0f172a',
+                    text: '#ffffff',
+                    secondary: '#f8fafc',
+                    logo: "#f1f5f9"
+                  },
+                  screens: {
+                    '2xl': '1320px'
+                  }
+                }
+              }
+        }
+    </script>
 </head>
 <body class="bg-background">
     <!-- Header -->
