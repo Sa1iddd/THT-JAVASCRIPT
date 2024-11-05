@@ -21,7 +21,7 @@ document.getElementById("contact").addEventListener("submit", function(event) {
     }
 
     const message = `Nama: ${name} \nEmail: ${email} \nPesan: ${description} \nNomor HP: ${phone}`;
-    const whatsappUrl = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/6285394582783?text=${encodeURIComponent(message)}`;
 
     window.open(whatsappUrl, "_blank");
 });
